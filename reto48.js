@@ -19,8 +19,6 @@ function findSolidary(arr){
         throw new Error("el valor debe ser mayor a 0")
     }
     
-    return arr.reduce((acc, num) => acc ^ num)
-    
-  
+    return arr.reduce((acc, num) => acc ^ num)  
 }
 console.log(findSolidary([1, 1, 2, 2, 3, 4, 4, 5, 5]))
